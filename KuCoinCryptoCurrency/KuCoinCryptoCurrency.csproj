@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alexandre Brandão Lustosa</Authors>
+    <Description>KuCoin Crypto Currency Client Sdk</Description>
+    <Copyright></Copyright>
+    <PackageLicenseUrl>https://github.com/alexandrebl/KuCoinCryptoCurrency</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/alexandrebl/KuCoinCryptoCurrency</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/alexandrebl/KuCoinCryptoCurrency</PackageIconUrl>
+    <RepositoryUrl>https://github.com/alexandrebl/KuCoinCryptoCurrency</RepositoryUrl>
+    <RepositoryType>C# .Net Standard 2.0</RepositoryType>
+    <PackageTags>crypto currency cryptocurrency bicoin btc eth KuCoin exchange blockchain</PackageTags>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

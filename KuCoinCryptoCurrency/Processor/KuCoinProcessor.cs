@@ -38,10 +38,10 @@ namespace KuCoinCryptoCurrency.Processor {
                     }
                 };
 
-            var content = httpResponseMessage.Content;
-            var tickers = JsonConvert.DeserializeObject<IEnumerable<Ticker>>(content.ReadAsStringAsync().Result);
+            var content = httpResponseMessage.Content.ReadAsStringAsync().Result;
+            var tickerReport = JsonConvert.DeserializeObject<TickerReport>(content);
 
-            var response = new Response { Tickers = tickers, StatusCode = HttpStatusCode.OK };
+            var response = new Response { TickerReport = tickerReport, StatusCode = HttpStatusCode.OK };
 
             return response;
         }

@@ -17,9 +17,8 @@ using KuCoinCryptoCurrency.Utility;
 namespace KuCoinLoadCurrencies {
     class Program {
         static void Main() {
-            var uri = new Uri(@"https://api.kucoin.com/v1/open/tick");
             IHttpUtilityTool httpUtilityTool = new HttpUtilityTool();
-            IKuCoinProcessor kucoinProcessor = new KuCoinProcessor(uri, httpUtilityTool);
+            IKuCoinProcessor kucoinProcessor = new KuCoinProcessor(httpUtilityTool);
 
             var tickerResponse = kucoinProcessor.GetTickerLast24Hs();
 

@@ -1,6 +1,12 @@
 # KuCoinCryptoCurrency
 KuCoin Crypto Currency Client SDK
 
+### Nuget Repository
+https://www.nuget.org/packages/KuCoinCryptoCurrency/
+
+### Install Package
+Install-Package KuCoinCryptoCurrency
+
 ### How to use
 
 ```cs

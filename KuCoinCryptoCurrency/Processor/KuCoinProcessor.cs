@@ -11,11 +11,11 @@ using System.Net.Http;
 namespace KuCoinCryptoCurrency.Processor {
 
     public class KuCoinProcessor : IKuCoinProcessor {
-        private readonly Uri _uri;
         private static IHttpUtilityTool _httpUtilityTool;
+        private readonly Uri _uri = new Uri(@"https://api.kucoin.com/v1/open/tick");
 
-        public KuCoinProcessor(Uri uri, IHttpUtilityTool httpUtilityTool) {
-            _uri = uri;
+        public KuCoinProcessor(IHttpUtilityTool httpUtilityTool, Uri uri = null) {
+            if(uri != null) _uri = uri;
             _httpUtilityTool = httpUtilityTool;
         }
 

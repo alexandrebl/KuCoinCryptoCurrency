@@ -9,9 +9,8 @@ namespace KuCoinCryptoCurrency.Tests {
     public class ProcessorTests {
         [TestMethod]
         public void GetTickersLast24HsRequestSuccess() {
-            var uri = new Uri(@"https://api.kucoin.com/v1/open/tick");
             IHttpUtilityTool httpUtilityTool = new HttpUtilityTool();
-            IKuCoinProcessor kucoinProcessor = new KuCoinProcessor(uri, httpUtilityTool);
+            IKuCoinProcessor kucoinProcessor = new KuCoinProcessor(httpUtilityTool);
 
             var tickerResponse = kucoinProcessor.GetTickerLast24Hs();
 

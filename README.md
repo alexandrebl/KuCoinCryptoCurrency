@@ -1,5 +1,5 @@
 # KuCoinCryptoCurrency
-KuCoin Crypto Currency Client SDK
+KuCoin Crypto Currency .Net Client SDK
 
 <strong>Develop branch</strong><br />
 <img src="https://ci.appveyor.com/api/projects/status/github/alexandrebl/KuCoinCryptoCurrency?branch=develop&svg=true" alt="Project Badge" with="300">

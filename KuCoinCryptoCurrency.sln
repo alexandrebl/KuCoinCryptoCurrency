@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuCoinCryptoCurrency", "KuCoinCryptoCurrency\KuCoinCryptoCurrency.csproj", "{2140F75A-67D7-4850-B047-0BD9FF998C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuCoinCryptoCurrency.Tests", "KuCoinCryptoCurrency.Tests\KuCoinCryptoCurrency.Tests.csproj", "{8C82B32F-813E-4649-8A9A-66083563F170}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{2140F75A-67D7-4850-B047-0BD9FF998C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2140F75A-67D7-4850-B047-0BD9FF998C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2140F75A-67D7-4850-B047-0BD9FF998C16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C82B32F-813E-4649-8A9A-66083563F170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C82B32F-813E-4649-8A9A-66083563F170}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C82B32F-813E-4649-8A9A-66083563F170}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C82B32F-813E-4649-8A9A-66083563F170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
